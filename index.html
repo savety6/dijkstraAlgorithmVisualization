@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="graph.js" defer></script>
+    <title>Next Lab</title>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <button id="toggle-button">Toggle Range</button>
+    <button id="dijkstra">dijkstra</button>
+    <button id="massage">massage</button>
+    <!-- sliding value button -->
+    <div class="slidecontainer">
+        <input type="range" min="30" max="300" value="100" class="slider" id="range-slider">
+        <p>Value: <span id="demo"></span></p>
+    </div>
+</body>
+</html>
